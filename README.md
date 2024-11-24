@@ -1,0 +1,1 @@
+Este projeto é um modelo de Landing Page.
