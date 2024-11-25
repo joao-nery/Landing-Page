@@ -1,52 +1,92 @@
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+  
+} from "@/components/ui/carousel"
+
 export function Heading() {
+  
   return (
-    <section className="h-max border-2 flex flex-col justify-center items-center">
-      <article className="mt-10">
-        <h3 className="font-bold text-2xl">Heading</h3>
-        <h4 className="text-gray-400 text-sm text-center">Subheading</h4>
-      </article>
-      <div className="flex justify-center p-2 gap-10 mt-10 mb-10 lg:w-3/4">
-        <div className="">
-          <div className="mb-5">
-            <h4 className="font-bold">Title</h4>
-            <p className="text-xs text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur sint quae, fugit totam hic alias facilis quibusdam
-              accusantium ipsa cupiditate voluptates velit incidunt et voluptas
-              doloribus
-            </p>
-          </div>
-          <div className="mb-5">
-            <h4 className="font-bold">Title</h4>
-            <p className="text-xs text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur sint quae, fugit totam hic alias facilis quibusdam
-              accusantium ipsa cupiditate voluptates velit incidunt et voluptas
-              doloribus{" "}
-            </p>
-          </div>
-        </div>
-        <div>
-          <div className="mb-5">
-            <h4 className="font-bold">Title</h4>
-            <p className="text-xs text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur sint quae, fugit totam hic alias facilis quibusdam
-              accusantium ipsa cupiditate voluptates velit incidunt et voluptas
-              doloribus{" "}
-            </p>
-          </div>
-          <div>
-            <h4 className="font-bold">Title</h4>
-            <p className="text-xs text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur sint quae, fugit totam hic alias facilis quibusdam
-              accusantium ipsa cupiditate voluptates velit incidunt et voluptas
-              doloribus{" "}
-            </p>
-          </div>
-        </div>
+    <main className="mb-12">
+      <div className="h-10 mt-10 flex flex-col justify-center items-center text-xl">
+        <h1 className="w-2/3 text-center">O que os <b className="text-red-400">Clientes</b> dizem!</h1>
+        <p className="text-xs text-center w-2/3 text-gray-400">Veja como nossa Agencia de marketing digital ajuda os clientes a chegarem em seus objetivos.</p>
       </div>
-    </section>
+
+      <Carousel>
+        <CarouselContent className='mt-5 '>
+          <CarouselItem>
+            <div className="flex flex-col justify-center items-center p-5">
+              <div 
+                className="border-2 w-72 rounded-xl p-5  cursor-pointer"
+                style={{boxShadow: '0px 5px 2px 2px rgba(0,0,0,0.2)'}}
+              >
+                  <div>
+                    <div className="flex">
+                      <div
+                      className="w-10 h-10 rounded-full bg-gray-300"
+                      ></div>
+                      <div className="text-left ml-2 h-max">
+                        <h3 className="text-md font-semibold">Jonh Doe</h3>
+                        <p className="text-sm relative bottom-2 mb-2 text-gray-400">Executive Ceo</p>
+                      </div>
+                    </div>
+                    <p className="text-xs text-left text-gray-400">Lorem Ipsumis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>
+                  </div>
+              </div>
+            </div>
+          </CarouselItem>
+          <CarouselItem>
+            <div className="flex flex-col justify-center items-center  p-5">
+                <div 
+                  className="border-2 w-72 rounded-xl p-5 cursor-pointer"
+                  style={{boxShadow: '0px 5px 2px 2px rgba(0,0,0,0.2)'}}
+                >
+                    <div>
+                      <div className="flex">
+                        <div
+                        className="w-10 h-10 rounded-full bg-gray-300"
+                        ></div>
+                        <div className="text-left ml-2 h-max">
+                          <h3 className="text-md font-semibold">Jonh Doe</h3>
+                          <p className="text-sm relative bottom-2 mb-2 text-gray-400">Executive Ceo</p>
+                        </div>
+                      </div>
+                      <p className="text-xs text-left text-gray-400">Lorem Ipsumis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>
+                    </div>
+                </div>
+              </div>
+          </CarouselItem>
+          <CarouselItem>
+            <div className="flex flex-col justify-center items-center  p-5">
+                <div 
+                  className="border-2 w-72 rounded-xl p-5 cursor-pointer"
+                  style={{boxShadow: '0px 5px 2px 2px rgba(0,0,0,0.2)'}}
+                >
+                    <div>
+                      <div className="flex">
+                        <div
+                        className="w-10 h-10 rounded-full bg-gray-300"
+                        ></div>
+                        <div className="text-left ml-2 h-max">
+                          <h3 className="text-md font-semibold">Jonh Doe</h3>
+                          <p className="text-sm relative bottom-2 mb-2 text-gray-400">Executive Ceo</p>
+                        </div>
+                      </div>
+                      <p className="text-xs text-left text-gray-400">Lorem Ipsumis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>
+                    </div>
+                </div>
+              </div>
+          </CarouselItem>
+        </CarouselContent>
+        <CarouselNext className='hidden' />
+        <CarouselPrevious />
+      </Carousel>
+    </main>
   );
 }
+
+

@@ -8,13 +8,13 @@ function App() {
   
 
   return (
-    <>
+    <main>
       <Navbar/>
       <HeroImage/>
       <PanelImage/>
       <Heading/>
       <Footer/>
-    </>
+    </main>
   )
 }
 
