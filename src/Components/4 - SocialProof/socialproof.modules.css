@@ -1,0 +1,30 @@
+.Main-socialProof-content{
+    padding: 20px;
+}
+
+.Main-socialProof-content > h3{
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.socialProof-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.613);
+}
+
+.socialProof-content > div{
+    border: 1px solid white;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.socialProof-content > div:hover{
+    background-color: rgba(240, 248, 255, 0.091);
+}

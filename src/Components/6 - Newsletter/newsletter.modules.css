@@ -1,0 +1,25 @@
+.Newsletter-main{
+    background-color: rgb(107, 107, 231);
+    padding: 10px;
+    display: flex;
+}
+
+.Newsletter-main > input{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    height: 30px;
+    color: black;
+    text-indent: 10px;
+}
+
+.Newsletter-main > button{
+    width: 120px;
+    background-color: #8d77ff;
+    border-radius: 5px;
+    border: 2px solid rgb(109, 56, 194);
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    font-weight: 700;
+}

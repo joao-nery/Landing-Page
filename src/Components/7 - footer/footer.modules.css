@@ -1,0 +1,8 @@
+.Main-footer{
+    background-color: rgb(37, 37, 37);
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 0.8rem;
+}
