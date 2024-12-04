@@ -12,7 +12,6 @@
     font-size: 2rem;
     font-weight: 700;
     line-height: 2rem;
-    width: 90%;
 }
 
 .title-hero > p{
@@ -35,4 +34,40 @@
     color: white;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.buttons > button:hover{
+    background-color: rgb(83, 83, 230);
+}
+
+@media (min-width: 1032px) {
+
+    .title-hero{
+        padding: 10px 60px 40px 60px;
+      
+    }
+
+    .title-hero > h1{
+        font-size: 2.5rem;
+        line-height: 3.2rem;
+    }
+
+    .title-hero > p{
+        font-size: 0.9rem;
+        font-weight: 100;
+    }
+
+    .buttons > button{
+        width: 130px;
+        height: 40px;
+        font-size: 1rem;
+    }
+   
+}
+
+@media (min-width: 1632px) {
+    .title-hero{
+        padding: 10px 150px 40px 150px;
+      
+    }
 }

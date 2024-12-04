@@ -11,7 +11,7 @@
 }
 
 .Cards{
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     padding: 20px;
 }
 
@@ -35,14 +35,74 @@
 
 .Card > .Card-Text > p{
     font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.71);
+    color: rgb(255, 255, 255);
     
 }
 
 @media (min-width: 632px) {
     .Cards{
-        display: flex;
         gap: 20px;
     }
     
+}
+
+
+@media (min-width: 1032px){
+    .Main-title{
+        padding: 20px 65px 30px;
+    }
+
+    .Cards{
+        padding: 0px 65px 30px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .Card{
+        height: 230px;
+    }
+}
+
+@media (min-width: 1332px){
+    .Main-title{
+        padding: 20px 65px 30px;
+    }
+
+    .Cards{
+        padding: 0px 65px 30px;
+        
+    }
+
+    .Card{
+        height: 270px;
+    }
+
+    .Card > .Card-Text > h3{
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .Card > .Card-Text > p{
+        font-size: 1rem;
+    } 
+}
+
+@media (min-width: 1632px) {
+    .Main-title{
+        padding: 20px 150px 30px;
+    }
+
+    .Cards{
+        padding: 0px 150px 30px;
+        
+    }
+
+    .Card > .Card-Text > h3{
+        font-size: 1.2rem;
+        color: white;
+    }
+
+    .Card > .Card-Text > p{
+        font-size: 0.8rem;
+    } 
 }

@@ -1,11 +1,11 @@
 .Main-background{
     padding: 5px;
-    background-color: rgba(144, 144, 144, 0.006);
+    background-color: rgba(35, 31, 92, 0.183);
 
 }
 
 .Main-second-background{
-    background-color: rgb(28, 28, 28);
+    background-color: rgb(22, 22, 22);
 }
 
 @media (min-width: 732px) {
@@ -24,7 +24,28 @@
 
 @media (min-width: 1132px) {
     .Main-background{
+        padding: 5px 150px 0px 150px;
+        
+    }
+}
+
+@media (min-width: 1332px) {
+    .Main-background{
+        padding: 5px 150px 0px 150px;
+        
+    }
+}
+
+@media (min-width: 1532px) {
+    .Main-background{
         padding: 5px 250px 0px 250px;
+        
+    }
+}
+
+@media (min-width: 1632px) {
+    .Main-background{
+        padding: 5px 350px 0px 350px;
         
     }
 }

@@ -4,12 +4,12 @@
 
 .Main-Navbar{
     display: flex;
+    height: 55px;
     justify-content: space-between;
     align-items: center;
     padding: 0px 15px 0px 15px;
-    background-color: #1e1e1e;
-    z-index: 1;
-    box-shadow: 10px 10px 10px 10px black;
+    background-color: #1e1e1e35;
+    box-shadow: 0px 0px 5px 5px #000000;
 }
 
 .Title-Logo{
@@ -34,9 +34,8 @@
 @media (min-width: 732px) {
 
     .Main-Navbar{
-        justify-content: center;
-        gap: 10%;
-        z-index: 1;
+        justify-content: space-around;
+        gap: 20%;
     }
     
 
